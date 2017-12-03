@@ -35,6 +35,9 @@ matrix:
             - libx11-dev
             - libxft-dev
             - libboost-filesystem-dev
+            - libboost-system-dev
+            - libboost-thread-dev
+            - libboost-chrono-dev
           sources: 
             - ubuntu-toolchain-r-test
             
@@ -151,5 +154,3 @@ script:
   - ./windows-subclassing   
   #- ./widget_show       # https://travis-ci.org/qPCR4vir/nana/jobs/140245437#L1740
   #- ./widget_show2      # https://travis-ci.org/qPCR4vir/nana/jobs/140245437#L1730
-
-
